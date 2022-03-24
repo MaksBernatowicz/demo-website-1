@@ -1,8 +1,11 @@
-//BASE
+// BASE
 @use 'base/reset';
 @use 'base/fonts';
 @use 'base/base';
 
-//COMPONENTS
+// COMPONENTS
 @use 'components/header';
 @use 'components/section';
+
+// LAYOUTS
+@use 'layouts/container';
