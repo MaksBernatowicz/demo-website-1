@@ -14,19 +14,44 @@
     <link rel="stylesheet" href="dist/app.css">
 </head>
 <body>
-    <header class="header"></header>
-    <div class="container">
-        <div class="header__left">
-            <div class="logo">
-                <a href="index.html"><img src="./src/assets/images/drewniak-logo.jpg" alt="Drewniak logo"/></a>
-            </div>
-        </div>
-        <div class="header__right">
-            <a href="#" id="mobile-menu-trigger"></a>
+<header class="header"></header>
+<div class="container">
+    <div class="header__left">
+        <div class="logo">
+            <a href="index.html">
+                <img src="./src/assets/images/logo100px.jpg" alt="Drewniak logo"/>
+            </a>
         </div>
     </div>
+    <div class="header__right">
+        <a
+                href="#"
+                id="mobile-menu-trigger"
+                class="header__right_mobile-menu-trigger"
+        >
+            <i class="fas fa-bars"></i>
+        </a>
+        <ul class="nav">
+            <li class="nav__item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav__item">
+                <a href="#">About</a>
+            </li>
+            <li class="nav__item">
+                <a href="index.html">Services</a>
+            </li>
+            <li class="nav__item">
+                <a href="index.html">Portfolio</a>
+            </li>
+            <li class="nav__item">
+                <a href="index.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
 
 
-    <script src="dist/app.js"></script>
+<script src="dist/app.js"></script>
 </body>
 </html>
