@@ -1,5 +1,17 @@
 @use 'variables' as *;
 
 body {
+  font-family: $ff-primary;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $primary-text-color;
 
+  &.lock {
+    overflow: hidden;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
