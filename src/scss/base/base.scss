@@ -9,6 +9,17 @@ body {
   &.lock {
     overflow: hidden;
   }
+
+  &.opened {
+
+    .mobile-menu-overlay {
+      display: block;
+    }
+
+    .mobile-menu {
+      right: 0;
+    }
+  }
 }
 
 a {
