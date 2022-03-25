@@ -26,3 +26,18 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+  font-family: $ff-secondary;
+  line-height: 1.2;
+}
+
+h6 {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}

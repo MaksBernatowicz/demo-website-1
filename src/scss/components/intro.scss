@@ -20,4 +20,14 @@
     background-color: $primary-bg-color;
     opacity: 0.8;
   }
+
+  &__content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+
+    h1 {
+      margin-bottom: 40px;
+    }
+  }
 }
