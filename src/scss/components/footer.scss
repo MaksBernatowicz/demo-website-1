@@ -29,6 +29,11 @@
       text-align: center;
       color: $primary-light-color;
       letter-spacing: 1px;
+      transition: color .3s ease;
+
+      &:hover {
+        color: $primary-text-color;
+      }
     }
   }
 }
