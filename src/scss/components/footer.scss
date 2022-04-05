@@ -1,0 +1,27 @@
+@use '../base/variables' as *;
+
+.footer {
+
+  &__top {
+    padding: 100px 0;
+    background-color: $secondary-bg-color;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .nav {
+      margin-bottom: 50px;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      &__item {
+        margin: 15px;
+      }
+    }
+  }
+
+  &__bottom {
+    padding: 20px 0;
+
+  }
+}
