@@ -81,6 +81,19 @@ const watchForChanges = () => {
   watch('src/assets/fonts/**/*.{svg,eot,ttf,woff,woff2}', series(cleanFonts, copyFonts));
 }
 
+// deploy tasks
+const gulp = require('gulp');
+const deploy = require('gulp-gh-pages');
+
+/**
+ * Push build to gh-pages
+ */
+gulp.task('deploy', function () {
+  return gulp.src("./dist/**/*")
+      .pipe(deploy())
+});
+
 // public tasks
 exports.default = series(clean, parallel(css, js, copyImages, copyFonts), watchForChanges);
 exports.build = series(clean, parallel(css, js, copyImages, copyFonts));
+
